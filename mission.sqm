@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=512;
+		nextID=513;
 	};
 	class Camera
 	{
@@ -44087,6 +44087,7 @@ class Mission
 				position[]={6477.5742,25.887289,11183.811};
 			};
 			name="hc_1";
+			isPlayable=1;
 			id=433;
 			type="HeadlessClient_F";
 		};
@@ -44095,12 +44096,14 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7098.1758,23.915188,11172.146};
-				angles[]={6.2672691,0,6.2785149};
+				position[]={7098.1758,23.915186,11172.146};
+				angles[]={6.2672682,0,6.2785077};
 			};
 			name="hc_2";
+			isPlayable=1;
 			id=434;
 			type="HeadlessClient_F";
+			atlOffset=-1.9073486e-06;
 		};
 		class Item328
 		{
@@ -44110,6 +44113,7 @@ class Mission
 				position[]={7757.5752,14.561488,11183.811};
 			};
 			name="hc_3";
+			isPlayable=1;
 			id=435;
 			type="HeadlessClient_F";
 		};
